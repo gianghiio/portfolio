@@ -369,6 +369,26 @@ header nav{
   color: #fff;
 }
 
+/* cycle accent colours across cards so the list doesn't look uniform */
+.project-window:nth-of-type(1){ --accent: var(--peri); }
+.project-window:nth-of-type(2){ --accent: var(--coral); }
+.project-window:nth-of-type(3){ --accent: var(--mint); }
+.project-window:nth-of-type(4){ --accent: var(--sun); }
+.project-window:nth-of-type(5){ --accent: #FF9F5A; }
+.project-window:nth-of-type(6){ --accent: var(--peri); }
+
+.project-window:nth-of-type(4) .win-titlebar{ color: var(--ink); }
+
+/* cycle accent colours across cards so the list doesn't look uniform */
+.project-window:nth-of-type(1){ --accent: var(--peri); }
+.project-window:nth-of-type(2){ --accent: var(--coral); }
+.project-window:nth-of-type(3){ --accent: var(--mint); }
+.project-window:nth-of-type(4){ --accent: var(--sun); }
+.project-window:nth-of-type(5){ --accent: #FF9F5A; }
+.project-window:nth-of-type(6){ --accent: var(--peri); }
+
+.project-window:nth-of-type(4) .win-titlebar{ color: var(--ink); }
+
 .win-titlebar .dots{
   display: flex;
   gap: 6px;
